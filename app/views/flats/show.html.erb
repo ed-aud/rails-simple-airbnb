@@ -1,0 +1,29 @@
+<div class="page-body">
+  <div class="map" style="background-image: url()"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <div class="flat-show-card">
+          <h2><%= @flat.name %></h2>
+          <p><%= @flat.address %></p>
+        </div>
+        <div class="flat-show-card">
+          <h3>Description</h3>
+          <p><%= @flat.description %>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="flat-show-card">
+          <h3>Details</h3>
+          <p><%= @flat.number_of_guests %> people</p>
+          <p>£<%= @flat.price_per_night %></p>
+        </div>
+        <div class="flat-show-card">
+          <h3>Book Now</h3>
+          <button class="btn btn-success">Book</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%= link_to "View all flats", flats_path, class: "btn btn-primary" %>
+</div>

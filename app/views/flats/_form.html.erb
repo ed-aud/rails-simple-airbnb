@@ -1,0 +1,12 @@
+<div class="form-body">
+  <h2>Add a new flat</h2>
+  <br>
+  <%= simple_form_for(flat) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :description %>
+    <%= f.input :price_per_night %>
+    <%= f.input :number_of_guests %>
+    <%= f.submit class: "btn btn-primary" %>
+  <% end %>
+</div>

@@ -1,15 +1,69 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+i{
+  margin-right: 10px;
+}
+.navbar {
+  padding: 25px;
+  background-color: rgb(207, 205, 245);
+}
+.logo {
+  color: black;
+  text-decoration: none;
+}
+.container {
+  margin: 25px;
+}
+.flat-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flat-card {
+  max-width: 400px;
+  margin-top: 25px;
+  margin-right: 25px;
+  border: 1px solid black;
+  background-color: #f8f9fa;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.442);
+}
+.flat-details {
+  padding: 10px 20px;
+}
+.flat-stay-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+.flat-additional-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
+.text {
+  text-decoration: none;
+}
+.page-body {
+  margin: 25px;
+}
+.form-body {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(237, 236, 236);
+  border-radius: 15px;
+}
+.flat-show-card {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: 1px solid black;
+  background-color: #f8f9fa;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.442);
+}
